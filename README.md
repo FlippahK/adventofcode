@@ -28,6 +28,7 @@ Replace day1.py with the appropriate day's script.
 ## Links
 
 https://github.com/OroArmor/AdventOfCode/blob/master/src/2024/day1.py
+https://github.com/NEhlen/aoc2024/tree/main
 
 https://pypi.org/project/advent-of-code-data/
 
