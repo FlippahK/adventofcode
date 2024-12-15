@@ -108,7 +108,7 @@ def main():
     # data = test_data
     input = parse(data)
     # print(input)
-    # print(f"Value of solve1: {solve1(input)}")
+    print(f"Value of solve1: {solve1(input)}")
     print(f"Value of solve2: {solve2(input)}")
 
 
