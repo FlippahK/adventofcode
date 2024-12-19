@@ -2,6 +2,7 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).absolute().parent.parent))
 import util
+from timeit import default_timer as timer
 
 test_data_1: str = \
     """###############
@@ -128,9 +129,10 @@ def main():
     # data = test_data_2
     input = parse(data)
     # print(input)
+    start = timer()
     res = solve(input)
-    print(f"Value of solve1: {res[0]}")
-    print(f"Value of solve2: {res[1]}")
+    print(f"Value of solve1: {res[0]} after {timer() - start} seconds")
+    print(f"Value of solve2: {res[1]} after {timer() - start} seconds")
 
 
 if __name__ == "__main__":
